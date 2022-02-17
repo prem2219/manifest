@@ -1,0 +1,17 @@
+manifest:
+  remote:
+    _fetch: git_url
+    _name: origin
+  default:
+    _remote: origin
+    _revision: master
+    _sync-j: '4'
+  project:
+    - _name: linux_app
+      _path: app
+      _revision: id
+      _upstream: master
+    - _name: linux_driver
+      _path: driver
+      _revision: id
+      _upstream: master
